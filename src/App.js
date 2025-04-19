@@ -1,25 +1,44 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from "react";
+import "./App.css";
+import NavBar from "./components/NavBar";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import TheForm from "./components/TheForm";
+import Modal from "./components/modal/Modal";
 
 function App() {
+  const [input, setInput] = useState("");
+  const [loading, setLoading] = useState(false);
+  const [showWarning, setShowWarning] = useState(false);
+  const [response, setResponse] = useState("");
+  const [isModalOpen, setModalOpen] = useState(false);
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+    /* <♡ I will work on this later /> */
+  };
+
+  const closeModal = () => {
+    setInput("");
+    setModalOpen(false);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <NavBar />
+      <Header />
+      <TheForm
+        handleSubmit={handleSubmit}
+        loading={loading}
+        showWarning={showWarning}
+        input={input}
+        setInput={setInput}
+      />
+      {response && isModalOpen && (
+        <Modal onClose={closeModal} response={response} />
+      )}
+      <Footer />
+    </>
   );
 }
-
 export default App;
