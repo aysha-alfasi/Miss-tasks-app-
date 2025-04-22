@@ -1,0 +1,61 @@
+label,
+h3 {
+  position: relative;
+  top: 20px;
+  font-family: "KoHo";
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-family: "Jua";
+  font-size: 2rem !important;
+  position: relative;
+}
+
+.miss-tasks-bg {
+  position: relative;
+  bottom: 20px;
+  border: solid 1px rgba(0, 0, 0, 0.566);
+  width: 30%;
+  height: 30%;
+  margin-top: 3%;
+}
+
+@media screen and (min-width: 1024px) {
+  h1 {
+    font-size: 3.5rem !important;
+  }
+}
+
+@media screen and (max-width: 320px) {
+  h1 {
+    font-size: 1.5rem !important;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .miss-tasks-bg {
+    width: 70% !important;
+    height: 70%;
+  }
+}
+
+@media screen and (max-width: 325px) {
+  .miss-tasks-bg {
+    width: 80% !important;
+    height: 80%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .miss-tasks-bg {
+    width: 50%;
+    height: 50%;
+    position: relative;
+    top: 10px;
+  }
+
+  h1 {
+    font-size: 2.5rem;
+  }
+}

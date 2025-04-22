@@ -1,0 +1,42 @@
+footer {
+  font-family: "Annie Use Your Telescope";
+  font-size: 1rem;
+  color: rgba(41, 40, 40, 0.618) !important;
+}
+
+.blog-name {
+  font-family: "Amatic SC", sans-serif;
+  font-size: 1.3rem;
+  color: rgba(36, 36, 36, 0.881);
+}
+
+.footer-first-line {
+  position: relative;
+  top: 10px;
+  margin-bottom: 15px;
+  color: #3e3c3da2 !important;
+}
+
+@media screen and (max-width: 1024px) {
+  footer {
+    margin-top: -15px !important;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  footer {
+    margin-top: -10px !important;
+  }
+}
+
+@media screen and (max-width: 912px) {
+  footer {
+    margin-top: 40px !important;
+  }
+}
+
+@media screen and (max-width: 344px) {
+  footer {
+    margin-top: 10px !important;
+  }
+}

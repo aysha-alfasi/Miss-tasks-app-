@@ -1,0 +1,18 @@
+nav, footer, body {
+    background-color: #ffeaf4 !important;
+    color: rgba(42, 41, 41, 0.912) !important;
+   
+  }
+
+  html, body {
+
+    margin: 0;
+    padding: 0;
+  }
+
+  .app {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+

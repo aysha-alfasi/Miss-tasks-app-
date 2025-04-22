@@ -1,6 +1,6 @@
 import { Navbar, Container } from "react-bootstrap";
 import logo from "../imgs/logo4.png";
-import "../App.css";
+import "./NavBar.css";
 
 const NavBar = () => {
   return (
@@ -11,7 +11,6 @@ const NavBar = () => {
             <img
               src={logo}
               className="d-inline-block align-top logo d-none d-lg-block"
-              style={{ width: 300 }}
               alt="Logo"
             />
           </Navbar.Brand>

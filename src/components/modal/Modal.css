@@ -1,0 +1,66 @@
+.modal-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background: rgb(244, 225, 239) !important;
+  padding: 40px !important;
+  border-radius: 5px !important;
+  width: 430px !important;
+  height: auto !important;
+  position: relative !important;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.close-button {
+  position: absolute !important;
+  top: 10px !important;
+  right: 10px !important;
+  border: none !important;
+  background: transparent !important;
+  font-size: 20px !important;
+  cursor: pointer !important;
+}
+
+.modal-btn {
+  width: 100px;
+  height: auto;
+}
+
+.modal-header-content {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.miss-tasks-avatar img {
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.modal-title {
+  font-size: 1.25rem;
+  font-weight: 500;
+  font-family: "Itim";
+}
+
+.content-box {
+  margin-top: 8%;
+  background-color: white;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(42, 41, 41, 0.698) !important;
+}

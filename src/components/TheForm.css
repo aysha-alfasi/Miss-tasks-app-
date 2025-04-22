@@ -1,0 +1,33 @@
+.danger {
+  background-color: #fef6ad !important;
+  color: rgba(42, 41, 41, 0.932) !important;
+  border: 1px solid rgba(42, 41, 41, 0.698) !important;
+}
+
+.textarea {
+  border: 1px solid;
+  border-color: 1px rgba(42, 41, 41, 0.698) !important;
+  background-color: #ffffff !important;
+  resize: none;
+  font-family: "Inter" !important;
+  font-size: 1rem;
+}
+
+.textarea:focus {
+  border-color: #fcc4e1 !important;
+  box-shadow: 0 0 0 0.25rem #f7cfe398 !important;
+}
+
+.btn-primary {
+  background-color: #ffcadd !important;
+  border-color: rgba(42, 41, 41, 0.698) !important;
+  color: rgba(42, 41, 41, 0.889) !important;
+  height: 50px;
+  font-size: 3rem;
+  font-family: "Itim" !important;
+  transition: background-color 0.4s ease-in-out, transform 0.3s ease-in-out !important;
+}
+
+.btn-primary:hover {
+  background-color: #fcb9d2 !important;
+}

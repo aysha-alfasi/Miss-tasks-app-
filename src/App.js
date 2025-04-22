@@ -5,6 +5,8 @@ import Header from "./components/Header";
 import Footer from "./components/Footer";
 import TheForm from "./components/TheForm";
 import Modal from "./components/modal/Modal";
+import { AnimatePresence } from "framer-motion";
+
 
 function App() {
   const [input, setInput] = useState("");
@@ -56,7 +58,7 @@ function App() {
   };
 
   return (
-    <>
+    <div className="app">
       <NavBar />
       <Header />
       <TheForm
@@ -66,11 +68,13 @@ function App() {
         input={input}
         setInput={setInput}
       />
+      <AnimatePresence>
       {response && isModalOpen && (
-        <Modal onClose={closeModal} response={response} />
+        <Modal onClose={closeModal} response={response} isOpen={isModalOpen} />
       )}
+      </AnimatePresence>
       <Footer />
-    </>
+    </div>
   );
 }
 export default App;
