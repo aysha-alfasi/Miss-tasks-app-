@@ -60,6 +60,7 @@ function App() {
   return (
     <div className="app">
       <NavBar />
+      <div className="fullPageContent">
       <Header />
       <TheForm
         handleSubmit={handleSubmit}
@@ -73,6 +74,7 @@ function App() {
         <Modal onClose={closeModal} response={response} isOpen={isModalOpen} />
       )}
       </AnimatePresence>
+      </div>
       <Footer />
     </div>
   );

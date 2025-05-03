@@ -16,3 +16,6 @@ nav, footer, body {
     min-height: 100vh;
   }
 
+  .fullPageContent {
+    flex: 1;
+  }
