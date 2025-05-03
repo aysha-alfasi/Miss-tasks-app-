@@ -1,4 +1,4 @@
-# Miss Tasks has arrived! <🌸/>
+# Miss Tasks! <🌸/>
 
 Meet Miss Tasks, your sweet little productivity companion 🌸✨.
 She listens as you share how you're doing with your tasks, then responds based on your emotional tone 💬💌.
