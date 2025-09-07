@@ -6,10 +6,7 @@ const Footer = () => {
     <>
       <footer>
         <Container className="text-center custom-footer">
-          <p className="footer-first-line">
-            Made by Aisha Alfassi {"<"}/♡{">"}
-          </p>
-          <p className="blog-name">The Cute coder ©</p>
+          <p className="blog-name">The Pink coder ©</p>
         </Container>
       </footer>
     </>
